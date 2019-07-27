@@ -74,6 +74,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
                 <LinearLayout
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -85,7 +87,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="20dp"
-                            android:text="Kategori pahlawan : "/>
+                            android:text="Kategori : Pahlawan "/>
 
                         <TextView
                             android:id="@+id/kategori"
