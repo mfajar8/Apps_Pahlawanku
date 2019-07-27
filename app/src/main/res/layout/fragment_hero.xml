@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:orientation="horizontal"
+            android:background="@color/pureWhite"
+            android:weightSum="10">
+
+            <EditText
+                android:id="@+id/txt_cari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:layout_gravity="center"
+                android:textSize="22dp"
+                android:hint="Cari Nama Pahlawan"/>
+            <ImageView
+                android:id="@+id/btn_search"
+                android:layout_gravity="center"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_weight="2"
+                android:src="@drawable/ic_search"/>
+            <ImageView
+                android:id="@+id/btn_more"
+                android:layout_gravity="center"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_weight="2"
+                android:src="@drawable/ic_more"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerViewHero"
+            android:layout_below="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
