@@ -74,6 +74,7 @@ public class HeroDetailActivity extends AppCompatActivity {
     @OnClick(R.id.btn_back)
     public void back(){
         Intent in = new Intent(HeroDetailActivity.this, MainActivity.class);
+        in.putExtra("source", "detail");
         startActivity(in);
     }
 }
