@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/semua_data"
+        android:title="Tampilkan Semua"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nasional"
+        android:title="Pahlawan Nasional"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nasional_wanita"
+        android:title="Pahlawan Nasional Wanita"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/daerah"
+        android:title="Pahlawan Daerah"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/daerah_wanita"
+        android:title="Pahlawan Daerah Wanita"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/revolusi"
+        android:title="Pahlawan Revolusi"
+        app:showAsAction="never"/>
+
+</menu>
